@@ -1,5 +1,8 @@
 package com.day1Spring.loose_coupling.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SuperContra implements GamingConsole {
 	
 	public void up()

@@ -1,5 +1,8 @@
 package com.day1Spring.loose_coupling.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
 	private GamingConsole gamingConsole;
